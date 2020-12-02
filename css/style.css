@@ -119,6 +119,16 @@
 	position: relative;
 }
 
+.right-up {
+	z-index: 30;
+	top: 120%;
+	right: 10%;
+	width: 20%;
+	height: 80px;
+	position: absolute;
+	color: white;
+	text-align: center;
+}
 /* 
 .content {
 	font-size: calc(18px + (24 - 18) * (100vw - 480px) / (1200 - 480));
