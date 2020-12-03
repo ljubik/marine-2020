@@ -20,7 +20,7 @@
 	.container {
 		min-width: 1200px;
 		width: 100%;
-		max-width: 120px;
+		max-width: 1200px;
 		padding-left: 15px;
 		padding-right: 15px;
 		margin-right: auto;
@@ -38,6 +38,7 @@
 	font-size: 18px;
 	text-align: center;
 }
+
 hr {
 	border-bottom: 5px solid black;
 	width: 85%;
@@ -46,6 +47,33 @@ hr {
 .twoblock {
 	display: flex;
 	flex-wrap: nowrap;
+}
+
+.tblock {
+	display: flex;
+	width: calc((100% - 2 * 8px) / 2);
+}
+
+.nowrap {
+	flex-wrap: nowrap;
+}
+
+.wrap {
+	flex-wrap: wrap;
+}
+
+.left {
+	align-items: left;
+	align-content: left;
+	text-align: left;
+}
+.right {
+	align-items: right;
+	align-content: right;
+	text-align: right;
+}
+
+.relative {
 }
 
 .title {
@@ -57,6 +85,7 @@ hr {
 	/* padding: 20px; */
 	/* padding: calc(60px + (80 - 40) * (100vw - 600px) / (1200 - 600)); */
 	text-align: center;
+	padding-left: 25%;
 }
 
 @media (max-width: 768px) {
@@ -72,16 +101,18 @@ hr {
 
 .fl-left {
 	/* display: flex; */
-	padding-left: 15px;
+	/* padding-left: 15px; */
 	padding-right: 15px;
-	width: 40%;
+	width: 100%;
+	flex: 1;
 }
 
 .fl-right {
 	/* display: flex; */
-	/* padding-right: 15px; */
-	/* width: 100%; */
-	position: relative;
+	/* padding-right: 17px; */
+	width: 100%;
+	/* position: relative; */
+	flex: 1;
 }
 
 .txt-vertical {
@@ -98,13 +129,17 @@ hr {
 	color: #feffff;
 	align-items: center;
 	justify-content: left;
-	padding-left: 15%;
+}
+
+.fl-left .blue-line {
+	width: 100%;
+	/* flex-wrap: wrap; */
 }
 
 .left-up {
 	z-index: 50;
-	top: 10%;
-	right: 10%;
+	top: 290%;
+	left: 15%;
 	width: 20%;
 	height: 80px;
 	position: absolute;
@@ -140,14 +175,17 @@ hr {
 	color: white;
 	text-align: center;
 }
-/* 
-.content {
-	font-size: calc(18px + (24 - 18) * (100vw - 480px) / (1200 - 480));
-	display: flex;
-	align-content: space-between;
-} */
 
-p.content:first-letter {
+.content {
+	/* font-size: calc(18px + (24 - 18) * (100vw - 480px) / (1200 - 480)); */
+	/* display: flex; */
+	/* align-content: space-between; */
+	/* text-align: justify; */
+	text-align: justify;
+	width: 85%;
+}
+
+p.first-let:first-letter {
 	display: flex;
 	align-self: flex-start;
 	font-size: 4em;
