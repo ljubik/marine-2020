@@ -1,46 +1,8 @@
-@media (min-width: 480px) {
-	.container {
-		width: 480px;
-		padding-left: 31px;
-		padding-right: 31px;
-	}
-}
-
-@media (min-width: 768px) and (max-width: 1199px) {
-	.container {
-		min-width: 768px;
-		max-width: 1199px;
-		width: 100%;
-		padding-left: 39px;
-		padding-right: 39px;
-	}
-}
-
-@media (min-width: 1200px) {
-	.container {
-		min-width: 1200px;
-		width: 100%;
-		max-width: 120px;
-		padding-left: 15px;
-		padding-right: 15px;
-		margin-right: auto;
-		margin-left: auto;
-	}
-	.flex {
-		display: -webkit-box;
-		display: -ms-flexbox;
-		display: flex;
-	}
-}
-
 .page-title {
-	color: #370398;
+	color: black;
 	font-size: 18px;
 	text-align: center;
-}
-hr {
 	border-bottom: 5px solid black;
-	width: 85%;
 }
 
 .twoblock {
@@ -49,7 +11,7 @@ hr {
 }
 
 .title {
-	color: #573ea2;
+	color: #3a0192;
 	/* font-size: 60px; */
 	font-size: calc(60px + (72 - 60) * (100vw - 480px) / (1200 - 480));
 	/* line-height: 28px; */
@@ -64,7 +26,7 @@ hr {
 		flex-wrap: wrap;
 	}
 	.title {
-		color: #573ea2;
+		color: blue;
 		font-size: 2rem;
 		text-align: center;
 	}
@@ -76,7 +38,6 @@ hr {
 	padding-right: 15px;
 	width: 40%;
 }
-
 .fl-right {
 	/* display: flex; */
 	/* padding-right: 15px; */
@@ -84,18 +45,11 @@ hr {
 	position: relative;
 }
 
-.txt-vertical {
-	-webkit-writing-mode: vertical-rl;
-	writing-mode: tb-rl;
-	-webkit-transform: rotate(180deg);
-	/* transform: rotate(90deg); */
-}
-
 .blue-line {
 	height: 40px;
 	font-size: 18px;
-	background-color: #360292;
-	color: #feffff;
+	background-color: blue;
+	color: white;
 	align-items: center;
 	justify-content: left;
 	padding-left: 15%;
