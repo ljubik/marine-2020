@@ -233,7 +233,7 @@ hr {
 
 .left-up {
 	z-index: 50;
-	top: 270%;
+	top: 1600px;
 	left: 20%;
 	width: 20%;
 	height: 80px;
@@ -243,14 +243,14 @@ hr {
 }
 
 .left-up.nsv {
-	top: 570%;
+	top: 3100px;
 	color: #2b265a;
 	font-size: 25px;
 	height: 70px;
 }
 
 .left-up.atb {
-	top: 1140%;
+	top: 8890px;
 	color: #2b265a;
 	font-size: 25px;
 	height: 70px;
@@ -286,7 +286,7 @@ img {
 
 .right-up {
 	z-index: 30;
-	top: 120%;
+	top: 700px;
 	right: 10%;
 	width: 20%;
 	height: 80px;
@@ -420,6 +420,7 @@ blockquote {
 
 .perspective-text {
 	display: inline-flex;
+	margin-top: 25px;
 	margin-right: 10%;
 	margin-left: 20px;
 }
@@ -427,4 +428,15 @@ blockquote {
 .bgk {
 	/* width: 50%; */
 	/* height: 750px; */
+}
+
+.atb-sec {
+	background-color: #b3a7d4;
+	width: 85%;
+	height: auto;
+	padding-bottom: 25px;
+	padding-left: auto;
+	padding-right: auto;
+	margin-left: auto;
+	margin-right: 5px;
 }
