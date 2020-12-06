@@ -39,7 +39,6 @@
 	left: 0;
 	top: 0;
 	z-index: 1030;
-	/* padding-bottom: 50px; */
 	background: white;
 	width: 85%;
 	text-align: center;
@@ -130,26 +129,20 @@ hr {
 }
 
 .fl-left {
-	/* display: flex; */
-	/* padding-left: 15px; */
 	padding-right: 15px;
 	width: 100%;
 	flex: 1;
 }
 
 .fl-right {
-	/* display: flex; */
-	/* padding-right: 17px; */
 	width: 100%;
-	/* position: relative; */
 	flex: 1;
 }
 
 .txt-vertical {
 	-webkit-writing-mode: vertical-rl;
 	writing-mode: tb-rl;
-	-webkit-transform: rotate(180deg);
-	/* transform: rotate(90deg); */
+	transform: rotate(180deg);
 }
 
 .blue-line {
@@ -169,7 +162,6 @@ hr {
 
 .blue-line-right {
 	padding-left: 60%;
-	/* justify-content: right; */
 }
 
 .blue-cont {
@@ -192,13 +184,9 @@ hr {
 	background-color: #422198;
 	color: #ffffff;
 	align-items: center;
-	/* justify-content: left; */
 	padding-left: 15px;
 	padding-right: 15px;
-	/* margin-left: 80px;
-	margin-right: 80px; */
 	line-height: 1em;
-	/* flex-wrap: wrap; */
 	letter-spacing: 0.5em;
 	border-top: white;
 	border-left: white;
@@ -215,9 +203,6 @@ hr {
 	background-color: #422198;
 	color: #ffffff;
 	align-items: center;
-	/* justify-content: left; */
-	/* padding-left: 40%; */
-	/* padding-right: 50%; */
 	line-height: 2em;
 	letter-spacing: 0.5em;
 	border-top: 0px solid white;
@@ -228,7 +213,6 @@ hr {
 
 .fl-left .blue-line {
 	width: 100%;
-	/* flex-wrap: wrap; */
 }
 
 .left-up {
@@ -250,7 +234,7 @@ hr {
 }
 
 .left-up.atb {
-	top: 8890px;
+	top: 8540px;
 	color: #2b265a;
 	font-size: 25px;
 	height: 70px;
@@ -297,8 +281,6 @@ img {
 
 .content {
 	/* font-size: calc(18px + (24 - 18) * (100vw - 480px) / (1200 - 480)); */
-	/* display: flex; */
-	/* align-content: space-between; */
 	text-align: justify;
 	width: 85%;
 	/* font-family: "Courier New", Courier, monospace, serif; */
@@ -309,12 +291,9 @@ img {
 	font-size: 18px;
 	line-height: 21px;
 	letter-spacing: 0.02em;
-	/* margin-right: 50; */
 }
 .first-txt {
 	padding-left: 18%;
-	/* display: flex; */
-	/* align-self: flex-end; */
 	width: 100%;
 	position: relative;
 }
@@ -340,7 +319,6 @@ p.first-let:first-letter {
 	line-height: 1.4em;
 	color: #360292;
 	vertical-align: middle;
-	/* background-color: darksalmon; */
 	padding: 1 8px;
 }
 
@@ -370,36 +348,16 @@ blockquote {
 }
 
 .video {
-	/* width: 100%;
-	height: 500px; */
 	padding: auto;
 	margin: auto;
-	/* padding-left: auto;
-	padding-right: auto;
-	padding-top: auto;
-	margin-left: auto;
-	margin-right: auto;
-	margin-top: auto;
-	margin-bottom: auto; */
 }
 
 .perspective {
-	/* padding-top: 40px; */
 	font-size: 18px;
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
 	float: left;
 	text-align: justify;
 	line-height: 1.4em;
-	/* background-color: #8296b5; */
-	/* background-position: right 50% bottom 70%; */
-	/* background-position: top right 10px; */
-	/* background-size: 400px 200px; */
-	/* background-size: 6px, auto, contain; */
-	/* background-position: 25% 1%; */
-	/* background-repeat: no-repeat; */
-	/* background-clip: border-box; */
-	/* background-clip: text; */
-	/* color: #482e2b; */
 }
 
 .bkg-blue {
@@ -412,7 +370,6 @@ blockquote {
 	margin-right: auto;
 	background: linear-gradient(to left, transparent, #8296b5, #8296b5, #8296b5),
 		url("../img/Vane Bros-Assateague -DS801 ATB-Photo by Hank Carter.jpg");
-	/* background-size: 6px, auto, contain; */
 	background-repeat: no-repeat;
 	background-position: -23% 55%;
 	background-color: linear-gradient(to left, transparent, #8296b5, #52bba9);
@@ -423,11 +380,6 @@ blockquote {
 	margin-top: 25px;
 	margin-right: 10%;
 	margin-left: 20px;
-}
-
-.bgk {
-	/* width: 50%; */
-	/* height: 750px; */
 }
 
 .atb-sec {
