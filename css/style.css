@@ -101,6 +101,11 @@ hr {
 	text-align: right;
 }
 
+.half-img {
+	width: 85%;
+	height: auto;
+}
+
 .title {
 	color: #573ea2;
 	/* font-size: 60px; */
@@ -163,22 +168,26 @@ hr {
 }
 
 .blue-line-right {
-	padding-left: 65%;
+	padding-left: 60%;
 	/* justify-content: right; */
 }
 
 .blue-cont {
 	background-color: #b3a7d4;
-	width: 108%;
+	width: 85%;
 	height: 210px;
 	padding-bottom: 25px;
+	padding-left: auto;
+	padding-right: auto;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .blue-line-big {
 	font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 	display: flex;
 	height: 140px;
-	width: 90%;
+	width: 85%;
 	font-size: 3em;
 	background-color: #422198;
 	color: #ffffff;
@@ -190,7 +199,7 @@ hr {
 	margin-right: 80px; */
 	line-height: 1em;
 	/* flex-wrap: wrap; */
-	letter-spacing: 1em;
+	letter-spacing: 0.5em;
 	border-top: white;
 	border-left: white;
 	border-bottom: 0px solid white;
@@ -210,7 +219,7 @@ hr {
 	/* padding-left: 40%; */
 	/* padding-right: 50%; */
 	line-height: 2em;
-	letter-spacing: 1em;
+	letter-spacing: 0.5em;
 	border-top: 0px solid white;
 	border-left: none;
 	border-bottom: white;
@@ -240,6 +249,12 @@ hr {
 	height: 70px;
 }
 
+.left-up.atb {
+	top: 1140%;
+	color: #2b265a;
+	font-size: 25px;
+	height: 70px;
+}
 /* @media (max-width: 1200px) {
 	.left-up {
 		z-index: 50;
@@ -323,7 +338,7 @@ p.first-let:first-letter {
 	padding-left: 5%;
 	margin-right: 15px;
 	line-height: 1.4em;
-
+	color: #360292;
 	vertical-align: middle;
 	/* background-color: darksalmon; */
 	padding: 1 8px;
@@ -369,7 +384,7 @@ blockquote {
 }
 
 .perspective {
-	padding-top: 40px;
+	/* padding-top: 40px; */
 	font-size: 18px;
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
 	float: left;
@@ -385,20 +400,31 @@ blockquote {
 	/* background-clip: border-box; */
 	/* background-clip: text; */
 	/* color: #482e2b; */
-	background: linear-gradient(to left, transparent, #8296b5),
-		url("../img/Vane Bros-Assateague -DS801 ATB-Photo by Hank Carter.jpg");
 }
 
 .bkg-blue {
-	width: 100%;
-	height: 500px;
-	padding-left: 1px;
-	padding-right: 10px;
-	margin-left: 15px;
-	margin-right: 15px;
+	height: 700px;
+	width: 85%;
+	padding-bottom: 25px;
+	padding-left: auto;
+	padding-right: auto;
+	margin-left: auto;
+	margin-right: auto;
+	background: linear-gradient(to left, transparent, #8296b5, #8296b5, #8296b5),
+		url("../img/Vane Bros-Assateague -DS801 ATB-Photo by Hank Carter.jpg");
+	/* background-size: 6px, auto, contain; */
+	background-repeat: no-repeat;
+	background-position: -23% 55%;
+	background-color: linear-gradient(to left, transparent, #8296b5, #52bba9);
+}
+
+.perspective-text {
+	display: inline-flex;
+	margin-right: 10%;
+	margin-left: 20px;
 }
 
 .bgk {
-	width: 50%;
-	height: 750px;
+	/* width: 50%; */
+	/* height: 750px; */
 }
