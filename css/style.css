@@ -33,6 +33,22 @@
 	}
 }
 
+.fix-top {
+	position: fixed;
+	right: 0;
+	left: 0;
+	top: 0;
+	z-index: 1030;
+	/* padding-bottom: 50px; */
+	background: white;
+	width: 85%;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: auto;
+	padding-right: auto;
+}
+
 .page-title {
 	color: #370398;
 	font-size: 18px;
@@ -48,6 +64,12 @@
 hr {
 	border-bottom: 5px solid black;
 	width: 85%;
+}
+.page {
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: auto;
+	padding-right: auto;
 }
 
 .twoblock {
@@ -77,9 +99,6 @@ hr {
 	align-items: right;
 	align-content: right;
 	text-align: right;
-}
-
-.relative {
 }
 
 .title {
@@ -146,6 +165,56 @@ hr {
 .blue-line-right {
 	padding-left: 65%;
 	/* justify-content: right; */
+}
+
+.blue-cont {
+	background-color: #b3a7d4;
+	width: 108%;
+	height: 210px;
+	padding-bottom: 25px;
+}
+
+.blue-line-big {
+	font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+	display: flex;
+	height: 140px;
+	width: 90%;
+	font-size: 3em;
+	background-color: #422198;
+	color: #ffffff;
+	align-items: center;
+	/* justify-content: left; */
+	padding-left: 15px;
+	padding-right: 15px;
+	/* margin-left: 80px;
+	margin-right: 80px; */
+	line-height: 1em;
+	/* flex-wrap: wrap; */
+	letter-spacing: 1em;
+	border-top: white;
+	border-left: white;
+	border-bottom: 0px solid white;
+	border-right: white;
+	border-style: dotted;
+}
+
+.blue-line-down {
+	font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+	height: 60px;
+	width: 96%;
+	font-size: 2em;
+	background-color: #422198;
+	color: #ffffff;
+	align-items: center;
+	/* justify-content: left; */
+	/* padding-left: 40%; */
+	/* padding-right: 50%; */
+	line-height: 2em;
+	letter-spacing: 1em;
+	border-top: 0px solid white;
+	border-left: none;
+	border-bottom: white;
+	border-style: dotted;
 }
 
 .fl-left .blue-line {
@@ -215,7 +284,6 @@ img {
 	/* font-size: calc(18px + (24 - 18) * (100vw - 480px) / (1200 - 480)); */
 	/* display: flex; */
 	/* align-content: space-between; */
-	/* text-align: justify; */
 	text-align: justify;
 	width: 85%;
 	/* font-family: "Courier New", Courier, monospace, serif; */
@@ -226,6 +294,7 @@ img {
 	font-size: 18px;
 	line-height: 21px;
 	letter-spacing: 0.02em;
+	/* margin-right: 50; */
 }
 .first-txt {
 	padding-left: 18%;
@@ -286,31 +355,50 @@ blockquote {
 }
 
 .video {
-	padding-left: auto;
+	/* width: 100%;
+	height: 500px; */
+	padding: auto;
+	margin: auto;
+	/* padding-left: auto;
 	padding-right: auto;
-	/* padding-top: auto; */
+	padding-top: auto;
 	margin-left: auto;
 	margin-right: auto;
-	/* margin-top: auto; */
-	/* margin-bottom: auto; */
+	margin-top: auto;
+	margin-bottom: auto; */
 }
 
 .perspective {
-	background-color: #8296b5;
+	padding-top: 40px;
+	font-size: 18px;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	float: left;
+	text-align: justify;
+	line-height: 1.4em;
+	/* background-color: #8296b5; */
 	/* background-position: right 50% bottom 70%; */
-	background-size: 800px 300px;
-	background-repeat: no-repeat;
-	color: #482e2b;
+	/* background-position: top right 10px; */
+	/* background-size: 400px 200px; */
+	/* background-size: 6px, auto, contain; */
+	/* background-position: 25% 1%; */
+	/* background-repeat: no-repeat; */
+	/* background-clip: border-box; */
+	/* background-clip: text; */
+	/* color: #482e2b; */
 	background: linear-gradient(to left, transparent, #8296b5),
 		url("../img/Vane Bros-Assateague -DS801 ATB-Photo by Hank Carter.jpg");
 }
 
 .bkg-blue {
-	width: 50%;
+	width: 100%;
+	height: 500px;
+	padding-left: 1px;
+	padding-right: 10px;
+	margin-left: 15px;
+	margin-right: 15px;
 }
 
 .bgk {
 	width: 50%;
 	height: 750px;
-	/* background-image: url("../img/Vane Bros-Assateague -DS801 ATB-Photo by Hank Carter.jpg"); */
 }
